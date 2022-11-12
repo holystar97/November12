@@ -22,10 +22,10 @@ MEMBMER Table Contents
 	ResultSet rs=null;
 	
 	try {
-		String jdbcDriver = "jdbc:mysql://localhost:3306/edu?" +
+		String jdbcDriver = "jdbc:mysql://localhost:3306/sinsa?" +
 							"useUnicode=true&characterEncoding=utf8&serverTimezone=UTC";
 		String dbUser = "root";
-		String dbPass = "12345678";
+		String dbPass = "sinsa01";
 		
 		String query = "select * from mem_info";
 		
